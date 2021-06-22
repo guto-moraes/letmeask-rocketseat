@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-.ideias
+.ideias.local
 
 # production
 /build
