@@ -1,0 +1,14 @@
+@import 'colors';
+
+:root {
+
+  @each $color,
+  $shade in $colors {
+
+    @each $prop,
+    $value in $shade {
+      --clr-#{$color}-#{$prop}: #{$value};
+    }
+  }
+
+}

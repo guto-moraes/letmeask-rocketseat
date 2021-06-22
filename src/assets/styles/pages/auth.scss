@@ -1,0 +1,79 @@
+.page-form-default {
+  display: flex;
+   width: 100vw;
+  height: 100vh;
+}
+
+.page-form-default__main-auth {
+
+      display: grid;
+      align-items: stretch;
+      width: 320px;
+
+      .app-logo {
+        justify-self: center;
+        margin-bottom: 56px;
+      }
+
+      .google-auth {
+        color: var(--clr-neutral-100);
+        background-color: var(--clr-red-400);
+        box-shadow: 0 .25rem .25rem rgba(0,0,0,0.25);
+      }
+
+      .divider {
+        position: relative;
+        font-size: .875rem;
+        color: var(--clr-neutral-600);
+        margin: 2rem 0;
+        text-align: center;
+
+        &::before,
+        &::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          width: 4.75rem;
+          height: .063rem;
+          background-color: var(--clr-neutral-600);
+        }
+
+        &::before {
+          left: 0;
+        }
+
+        &::after {
+          right: 0;
+        }
+    }
+
+}
+
+.auth-form {
+  display: grid;
+
+  .room-code {
+    height: 45px;
+    font-size: 1rem;
+    color: var(--clr-neutral-600);
+    padding-left: .625rem;
+    margin-bottom: 1rem;
+    background-color: var(--clr-neutral-100);
+    border: 1px solid var(--clr-neutral-600);
+    border-radius: .25rem;
+
+    &::placeholder {
+      color: var(--clr-neutral-600);
+    }
+  }
+
+  .bnt-sign-in {
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-purple-300);
+
+    .log-in{
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+  }
+}

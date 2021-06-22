@@ -1,0 +1,27 @@
+$colors: (
+  neutral: (
+    100: #ffffff,
+    200: #fefefe,
+    300: #f8f8f8,
+    400: #e6e6e6,
+    500: #dbdcdd,
+    600: #a8a8b3,
+    800: #737380,
+    900: #29292E
+  ),
+  "pink": (
+    200: #d67ee2,
+    500: #e559f9
+  ),
+  "purple": (
+    300: #835afd,
+    500: #6f4bd8
+  ),
+  "red": (
+    400: #ea4335,
+    600: #d73754
+  ),
+  "gradient": (
+    400: linear-gradient(135deg, #485bff, #ff59f8)
+  )
+);

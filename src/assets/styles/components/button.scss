@@ -1,0 +1,20 @@
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  height: 50px;
+  border: 0;
+  border-radius: .25rem;
+  cursor: pointer;
+  transition: 200ms;
+
+  &:not(:disabled):hover {
+    filter: brightness(0.9);
+  }
+
+  &:disabled {
+    filter: opacity(0.6);
+    cursor: not-allowed;
+  }
+}

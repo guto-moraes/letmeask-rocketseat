@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Title } from './components/Title';
-import { Button } from './components/Button';
+import App from './App';
 
-//import './services/firebase.ts'
+import './services/firebase.ts';
+
+import './assets/styles/main.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Title title="LetMeAsk - ReactJs App" />
-    <Button/>
+    <App />
   </React.StrictMode>,
   document.querySelector('#root')
 );
